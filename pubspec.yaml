@@ -1,0 +1,56 @@
+name: mynt_ekyc
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.2
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  file_picker: ^8.3.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_svg: ^2.0.17
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+
+flutter:
+    assets:
+      - assets/mainlogo.svg
+      - assets/star.svg
+      - assets/mobile.svg
+      - assets/mobilemessage.svg
+      - assets/fetchdocs.svg
+      - assets/digilockerfilescheck.svg
+      - assets/digilockerverfisteps.png
+      - assets/pan.svg
+      - assets/calendar.svg
+      - assets/mail.svg
+      - assets/googleicon.svg
+      - assets/identity.svg
+      - assets/aadhar.svg
+      - assets/uploadfile.svg
+      - assets/bank.svg
+      - assets/ifsc.svg
+      - assets/upipay.svg
+      - assets/greentick.svg
+      - assets/location.svg
+      - assets/user.svg
+      - assets/relationship.svg
+      - assets/close.svg
+
+    uses-material-design: true
+
+  
