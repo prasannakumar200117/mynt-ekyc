@@ -50,6 +50,7 @@ flutter:
       - assets/user.svg
       - assets/relationship.svg
       - assets/close.svg
+      - assets/congrats.svg
 
     uses-material-design: true
 
