@@ -18,6 +18,9 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   file_picker: ^8.3.5
+  flutter_riverpod: ^2.6.1
+  google_fonts: ^6.2.1
+  
 
 dev_dependencies:
   flutter_test:
@@ -27,31 +30,34 @@ dev_dependencies:
   flutter_lints: ^5.0.0
 
 flutter:
-    assets:
-      - assets/mainlogo.svg
-      - assets/star.svg
-      - assets/mobile.svg
-      - assets/mobilemessage.svg
-      - assets/fetchdocs.svg
-      - assets/digilockerfilescheck.svg
-      - assets/digilockerverfisteps.png
-      - assets/pan.svg
-      - assets/calendar.svg
-      - assets/mail.svg
-      - assets/googleicon.svg
-      - assets/identity.svg
-      - assets/aadhar.svg
-      - assets/uploadfile.svg
-      - assets/bank.svg
-      - assets/ifsc.svg
-      - assets/upipay.svg
-      - assets/greentick.svg
-      - assets/location.svg
-      - assets/user.svg
-      - assets/relationship.svg
-      - assets/close.svg
-      - assets/congrats.svg
+  uses-material-design: true
 
-    uses-material-design: true
+  assets:
+    - assets/mainlogo.svg
+    - assets/star.svg
+    - assets/mobile.svg
+    - assets/mobilemessage.svg
+    - assets/fetchdocs.svg
+    - assets/digilockerfilescheck.svg
+    - assets/digilockerverfisteps.png
+    - assets/pan.svg
+    - assets/calendar.svg
+    - assets/mail.svg
+    - assets/googleicon.svg
+    - assets/identity.svg
+    - assets/aadhar.svg
+    - assets/uploadfile.svg
+    - assets/bank.svg
+    - assets/ifsc.svg
+    - assets/upipay.svg
+    - assets/greentick.svg
+    - assets/location.svg
+    - assets/user.svg
+    - assets/relationship.svg
+    - assets/close.svg
+    - assets/congrats.svg
 
-  
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/InterVariable.ttf
